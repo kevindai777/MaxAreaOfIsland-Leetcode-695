@@ -12,7 +12,8 @@ let grid =
 [0,0,0,0,0,0,0,1,1,0,0,0,0]]
 
 
-//O(n) solution that includes a dfs through the 2-D array
+//O(n * m) solution where n and m are the length and width of the island respectively
+//We use DFS to traverse over the 2-D array
 
 let area = 0
 
